@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yaren ERCAN</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+        }
+        header {
+            background-color: #c5dada;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            
+        }
+        
+        h2{
+            margin-left: 40px;
+            margin-top: 160px;
+            margin-bottom: 110px;
+        }
+        a {
+            margin: 10px;
+            text-align: right;
+            color: #006666;
+            font-size: 20px;
+        }
+        p,h2{
+            color: #006666;
+        }
+        button{
+            margin-left: 40px;
+        }
+        
+        .container {
+            width: 90%;
+            margin: auto;
+            padding: 40px;
+        }
+        .content {
+            background-color: #ebf3f3;
+            padding: 100px;
+            
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .dropdown{
+            position: relative;
+            display: inline-block;
+        }
+        .dropdown-content
+        {
+            color: #c5dada ;
+            display : none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            padding: 12px 16px;
+            z-index: 1;
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        } 
+    </style>
+</head>
+<body>
+
+<header>
+    
+    <a href="anasayfa.html">Ana Sayfa</a>
+    <a href="hakkımda.html">Hakkımda</a>
+    <div class="dropdown">
+        <a href="">İletişim</a>
+        <div class="dropdown-content">
+            <p style="color: #006666;">ercan.yaren35@gmail.com</p>
+            <p style="color: #006666;">05342096544</p>
+        </div>
+    </div>
+
+</header>
+<div class="container">
+    <div class="content">
+        
+        <p><img src="profilfoto.jpg" style="width:400px; height:400px; float:right;"><h2>Merhaba, Ben Yaren ERCAN.</h2></p>
+        <p style="margin-left: 40px">Beni tanımak istiyorsan aşağıdaki butona tıklaman yeterli.</p>
+        <button>
+            <a href="hakkımda.html">Hakkkımda</a>
+        </button>
+        
+    </div>
+</div>
+
+</body>
+</html>
